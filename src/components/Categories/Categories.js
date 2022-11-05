@@ -1,9 +1,9 @@
-import './Categories.css'
+import './Categories.css';
 
 function Categories() {
   return (
     <>
-      <input className='STATUS' type="button" value="CHECK STATUS" />
+      <input className="STATUS" type="button" value="CHECK STATUS" />
 
     </>
   );

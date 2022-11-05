@@ -2,6 +2,7 @@ form {
   width: 80%;
   margin: 4rem auto;
   display: flex;
+
   /* padding: 2rem; */
   justify-content: center;
   align-items: center;
@@ -19,7 +20,9 @@ input[type='text'] {
 
 select {
   width: 15rem;
+
   /* padding: 12px 20px; */
+
   /* margin: 21px 0; */
   height: 3rem;
   display: inline-block;
