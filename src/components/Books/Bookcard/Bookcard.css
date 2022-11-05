@@ -1,0 +1,36 @@
+h2,h4{
+    margin: 0;
+    width: fit-content;
+}
+
+span{
+font-weight: bold;
+
+}
+
+.card {
+  width: 80%;
+  height: 10.625rem;
+  margin: 2rem auto;
+  /* padding: 2rem 9.188rem 1.625rem 1.688rem; */
+  border-radius: 4px;
+  border: solid 1px #e8e8e8;
+  background-color: #fff;
+  background: #dddddd;
+    color: #5f5f5f;
+}
+
+.info {
+    width: 40%;
+    text-align: left;
+    padding: 1rem;
+}
+
+input[type='button']{
+width: 11rem;
+height: 4rem;
+border: none;
+cursor: pointer;
+background: #0290ff;
+color: #fff;
+}

@@ -1,0 +1,15 @@
+.STATUS {
+  width: 11rem;
+  height: 4rem;
+  border: none;
+  cursor: pointer;
+  background: #0290ff;
+  color: #fff;
+  font-weight: bold;
+  margin: 15rem;
+}
+
+input[type='button']:hover {
+  background: #003f6f;
+  color: #fff;
+}
