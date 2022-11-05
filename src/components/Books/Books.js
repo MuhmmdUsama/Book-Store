@@ -5,6 +5,7 @@ function Books() {
   return (
     <>
       <Bookcard />
+      <Bookcard />
       <Form />
     </>
   );
