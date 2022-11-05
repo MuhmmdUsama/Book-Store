@@ -1,6 +1,11 @@
-# React-ToDo
+# Book-Store
 
-"To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete.
+The Bookstore is a website similar to the "Awesome Books" website built in the previous module. You will create an MVP version of it that allows you to:
+> 
+    Display a list of books.
+    Add a book.
+    Remove a selected book.
+
 
 ## Built With
 
@@ -14,7 +19,7 @@ To get a local copy up and running follow these simple example steps:
 
 - Open your terminal or command line
 - Run `git clone` and Paste the link
-- After the clone, type in the command `cd React-ToDo` to access the directory on the terminal
+- After the clone, type in the command `cd Bookstore` to access the directory on the terminal
 - run `npm install`.
 - Run `npm run start` and it will load a live server in http://localhost:3000/
 
@@ -29,7 +34,7 @@ To get a local copy up and running follow these simple example steps:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/MuhmmdUsama/React-ToDo/issues).
+Feel free to check the [issues page](https://github.com/MuhmmdUsama/Book-Store/issues).
 
 ## Show your support
 
