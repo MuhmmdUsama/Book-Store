@@ -23,7 +23,7 @@ To get a local copy up and running follow these simple example steps:
 - run `npm install`.
 - Run `npm run start` and it will load a live server in http://localhost:3000/
 
-###👤 Author
+### 👤 Author
 
 👤 **Muhmmd Usama** 
 - GitHub: [@muhmmdusama](https://github.com/muhmmdusama)
