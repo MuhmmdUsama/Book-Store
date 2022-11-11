@@ -5,8 +5,9 @@
 body {
   font-family: 'Montserrat', sans-serif;
   line-height: 1.6;
-  margin: 0;
+  margin: auto;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 ul {
@@ -25,16 +26,6 @@ a {
   text-decoration: none;
 }
 
-.picture {
-  background: #b2b2b2;
-  width: 2.813rem;
-  height: 2.813rem;
-  margin: auto;
-  padding: 0.875rem;
-  border: solid 1px #333;
-  border-radius: 100%;
-}
-
 .logo {
   margin: 0;
   font-size: 1.45em;
@@ -43,6 +34,9 @@ a {
 
 .main-nav {
   margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .logo a,
@@ -63,18 +57,32 @@ a {
 }
 
 .header {
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
+  /* padding-top: 0.5em; */
+  /* padding-bottom: 0.5em; */
   border: 1px solid #a2a2a2;
   background-color: #f4f4f4;
-  -webkit-box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.75);
+  /* -webkit-box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.75); */
+  /* -moz-box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.75); */
   box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.75);
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
+  /* -webkit-border-radius: 5px; */
+  /* -moz-border-radius: 5px; */
+  /* border-radius: 5px; */
+  margin: auto;
+  width: 100%;
 }
 
+.user {
+
+  border: solid 1px #0291ff5e;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  color: #0291ff5e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 /* =================================
   Media Queries
 ==================================== */
@@ -88,7 +96,7 @@ a {
   .header {
     flex-direction: column;
     align-items: center;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     max-width: 1150px;
   }
@@ -100,7 +108,7 @@ a {
     justify-content: space-between;
   }
 
-  .picture {
+  .user {
     margin: 0 1rem 0 8rem;
   }
 }

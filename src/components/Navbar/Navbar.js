@@ -1,5 +1,6 @@
 /* eslint-disable */
 import { Link } from 'react-router-dom';
+import { FaUser } from 'react-icons/fa';
 import './Navbar.css';
 
 const Navbar = () => (
@@ -12,7 +13,8 @@ const Navbar = () => (
       <li>
         <Link to="/categories">Categories</Link>
       </li>
-      <li><a href="/" className="picture"><img src="" alt="" /></a></li>
+      {/* <li><a href="/" className="picture"><img src="" alt="" /></a></li> */}
+      <li className='user'><FaUser /></li>
     </ul>
   </header>
 );
